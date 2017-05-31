@@ -16,7 +16,6 @@
 !var/SymfonyRequirements.php
 /vendor/
 /web/bundles/
-web/
 
 #phpStorm
-.idea/
+/.idea/
