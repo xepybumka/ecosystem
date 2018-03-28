@@ -1,0 +1,24 @@
+<h1>Задайте начальные параметры экосистемы:</h1>
+<div class="container">
+    <form class="form-horizontal" action="/start/" method="post">
+        <div class="control-group">
+            <div class="container">
+                <label class="control-label">Размерность поля (NxN)</label>
+                <div class="controls">
+                    <input class="control-label" placeholder="N=?" name="size" type="text">
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <label class="control-label">Количество шагов наблюдения</label>
+                <div class="controls">
+                    <input class="control-label" placeholder="Шагов наблюдения?" name="step" type="text">
+                </div>
+            </div>
+            <br>
+            <div class="container">
+                <button type="submit" class="btn btn-primary">Запустить экосистему</button>
+            </div>
+        </div>
+    </form>
+</div>

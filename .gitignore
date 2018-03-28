@@ -20,3 +20,18 @@
 #phpStorm
 /.idea/
 composer.lock
+###> symfony/framework-bundle ###
+/.env
+/%PUBLIC_DIR%/bundles/
+/%VAR_DIR%/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> symfony/webpack-encore-pack ###
+/node_modules/
+/%PUBLIC_DIR%/build/
+###< symfony/webpack-encore-pack ###
