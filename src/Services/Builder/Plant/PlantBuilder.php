@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Builder\Plant;
+namespace App\Services\Builder\Plant;
 
-use App\Builder\CreatureBuilder;
+use App\Services\Builder\CreatureBuilder;
 use App\Entity\Creatures\Plant\Plant;
 
 class PlantBuilder extends CreatureBuilder

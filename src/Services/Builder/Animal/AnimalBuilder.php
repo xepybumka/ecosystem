@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Builder\Animal;
+namespace App\Services\Builder\Animal;
 
-use App\Builder\CreatureBuilder;
+use App\Services\Builder\CreatureBuilder;
 
 abstract class AnimalBuilder extends CreatureBuilder
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Builder\Observer;
+namespace App\Services\Builder\Observer;
 
-use App\Builder\CreatureBuilder;
+use App\Services\Builder\CreatureBuilder;
 use App\Entity\Creatures\Observer\Observer;
 
 

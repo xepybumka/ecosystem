@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Builder;
+namespace App\Services\Builder;
 
 abstract class CreatureBuilder
 {

@@ -1,8 +1,7 @@
 <?php
 
-namespace App\Builder\Animal;
+namespace App\Services\Builder\Animal;
 
-use App\Builder\Animal\AnimalBuilder;
 use App\Entity\Creatures\Animal\Herbivore;
 
 class HerbivoreBuilder extends AnimalBuilder
@@ -10,6 +9,7 @@ class HerbivoreBuilder extends AnimalBuilder
     protected $names = [
         'herbivore'
     ];
+
     protected $powerLimits = ['min' => 1, 'max' => 100];
 
 

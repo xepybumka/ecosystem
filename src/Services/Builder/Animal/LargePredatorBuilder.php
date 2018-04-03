@@ -1,8 +1,7 @@
 <?php
 
-namespace App\Builder\Animal;
+namespace App\Services\Builder\Animal;
 
-use App\Builder\Animal\AnimalBuilder;
 use App\Entity\Creatures\Animal\LargePredator;
 
 class LargePredatorBuilder extends AnimalBuilder
